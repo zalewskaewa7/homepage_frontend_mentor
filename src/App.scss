@@ -1,0 +1,9 @@
+.App{
+    margin:auto;
+    display:flex;
+    flex: 0 70%;
+    flex-flow: column wrap; 
+    justify-content: center;
+    align-items: space-around;
+    max-width: 1440px;
+}

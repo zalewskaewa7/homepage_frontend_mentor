@@ -1,0 +1,58 @@
+.RightInfo_component{
+    display:flex;
+    flex-flow: column wrap;
+    flex: 0 28%;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: hsl(240, 100%, 5%);
+    padding: 0 2%;
+    margin: 1%;
+
+    h2{
+        color:hsl(35, 77%, 62%);
+        font-size: 2.5rem;
+        margin: 4% 2% 0 2%;
+    }
+    .RightInfo_content{
+        display:flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .RightInfo_content-element{
+        padding: 3% 0;
+        color: hsl(36, 100%, 99%);
+        border-bottom: 1px solid  hsl(36, 100%, 99%);
+        cursor: pointer;
+    }
+    .RightInfo_content-element:hover{
+        h3{
+            color:hsl(35, 77%, 62%);
+        }
+
+        
+
+    }
+    .RightInfo_content-element_last{
+        color: hsl(36, 100%, 99%);
+        padding: 3% 0 1% 0;
+        cursor: pointer;
+
+
+    }
+    .RightInfo_content-element_last:hover{
+         h3{
+            color:hsl(35, 77%, 62%);
+        }
+    }
+    
+}
+
+@media all and (max-width:  600px)  {
+
+    .RightInfo_component{
+        flex: 1 100%;
+
+    }
+
+}
